@@ -6,22 +6,28 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "type": "module",
+  "files": ["dist", "README.md"],
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "test": "vitest"
   },
   "keywords": [
-    "turkish",
-    "utils",
-    "türkçe",
-    "slug",
-    "phone"
+    "turkish", "utils", "türkçe", "slug", 
+    "phone", "tckn", "iban", "plate"
   ],
-  "author": "senin-adın",
+  "author": "SENIN_ADIN",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dagilmayusra/turkish-utils.git"
+  },
+  "homepage": "https://github.com/dagilmayusra/turkish-utils#readme",
+  "bugs": {
+    "url": "https://github.com/dagilmayusra/turkish-utils/issues"
+  },
   "devDependencies": {
     "tsup": "^8.5.1",
     "typescript": "^6.0.3",
     "vitest": "^4.1.6"
   }
-}
+} 
