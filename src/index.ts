@@ -1,0 +1,7 @@
+export { toTurkishSlug } from './slug'
+export { formatPhone } from './phone'
+export { validateTCKN } from './tckn'
+export { formatIBAN } from './iban'
+export { formatCurrency } from './currency'
+export { validatePlate, formatPlate } from './plate'
+export { capitalizeTurkish } from './name'

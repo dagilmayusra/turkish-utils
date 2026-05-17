@@ -1,0 +1,27 @@
+{
+  "name": "turkish-utils",
+  "version": "1.1.0",
+  "description": "Türkçe karakter ve formatlama yardımcıları",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "test": "vitest"
+  },
+  "keywords": [
+    "turkish",
+    "utils",
+    "türkçe",
+    "slug",
+    "phone"
+  ],
+  "author": "senin-adın",
+  "license": "ISC",
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.6"
+  }
+}
